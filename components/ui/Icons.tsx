@@ -1,20 +1,16 @@
 import React from 'react';
-import { 
-  FiGithub, 
-  FiTwitter, 
-  FiMail, 
-  FiExternalLink,
-  FiCodepen,
-  FiLinkedin as FiLinkedInIcon
-} from 'react-icons/fi';
-import { 
-  FaLinkedin, 
-  FaFacebook, 
-  FaInstagram, 
-  FaDribbble, 
-  FaBehance,
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
   FaQrcode
 } from 'react-icons/fa';
+import {
+  FiExternalLink,
+  FiGithub,
+  FiMail,
+  FiTwitter
+} from 'react-icons/fi';
 
 import { SiTiktok } from 'react-icons/si';
 
@@ -82,13 +78,13 @@ const SocialIcons = ({ className = "" }) => {
   return (
     <div className={`flex flex-wrap items-center justify-center gap-3 ${className}`}>
       <SocialLink
-        href="https://github.com/developer-khadim"
+        href="https://github.com/developer-gulnaz"
         icon={<GithubIcon />}
         label="GitHub"
         className="bg-gray-100 hover:bg-gray-200 text-gray-700 hover:text-gray-900"
       />
       <SocialLink
-        href="https://www.linkedin.com/in/khadim-ali12/"
+        href="https://www.linkedin.com/in/gulnaz-sheikh/"
         icon={<LinkedInIcon />}
         label="LinkedIn"
         className="bg-blue-100 hover:bg-blue-200 text-blue-700 hover:text-blue-900"
@@ -102,7 +98,7 @@ export const SocialIconsCompact = ({ className = "" }) => {
   return (
     <div className={`flex items-center gap-4 ${className}`}>
       <a
-        href="https://github.com/developer-khadim"
+        href="https://github.com/developer-gulnaz"
         target="_blank"
         rel="noopener noreferrer"
         className="text-gray-600 hover:text-gray-900 transition-colors"
@@ -111,7 +107,7 @@ export const SocialIconsCompact = ({ className = "" }) => {
         <GithubIcon />
       </a>
       <a
-        href="https://www.linkedin.com/in/khadim-ali12/"
+        href="https://www.linkedin.com/in/gulnaz-sheikh/"
         target="_blank"
         rel="noopener noreferrer"
         className="text-blue-600 hover:text-blue-800 transition-colors"
@@ -128,7 +124,7 @@ export const FooterSocialIcons = () => {
   return (
     <div className="flex items-center justify-center gap-6">
       <a
-        href="https://github.com/developer-khadim"
+        href="https://github.com/developer-gulnaz"
         target="_blank"
         rel="noopener noreferrer"
         className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 text-white hover:bg-gray-700 transition-colors"
@@ -137,7 +133,7 @@ export const FooterSocialIcons = () => {
         <GithubIcon />
       </a>
       <a
-        href="https://www.linkedin.com/in/khadim-ali12/"
+        href="https://www.linkedin.com/in/gulnaz-sheikh/"
         target="_blank"
         rel="noopener noreferrer"
         className="w-10 h-10 flex items-center justify-center rounded-full bg-blue-600 text-white hover:bg-blue-500 transition-colors"

@@ -23,7 +23,7 @@ const Home = () => {
               </h3>
               <FooterSocialIcons />
               <p className="mt-4 text-sm text-gray-600">
-                © {new Date().getFullYear()} Designed and developed by Khadim Ali
+                © {new Date().getFullYear()} Designed and developed by Gulnaz Sheikh
               </p>
             </div>
           </div>
