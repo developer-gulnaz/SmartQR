@@ -73,9 +73,9 @@ function SmartQR() {
             </CardTitle>
           </div>
           <p className="text-blue-100 text-center max-w-2xl mx-auto text-sm sm:text-base">
-            
+            Create custom QR codes for your links, emails, and more. Customize colors and download in multiple formats.
           </p>
-        </CardHeader>Create custom QR codes for your links, emails, and more. Customize colors and download in multiple formats.
+        </CardHeader>
         
         <CardContent className="p-5 sm:p-8 md:p-10">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
