@@ -1,6 +1,6 @@
 import Image from "next/image";
 import GlassIMG from "../public/glass.png";
-import QRCodeGenerator from "../components/ui/QRCodeGenerator";
+import SmartQR from "../components/ui/SmartQR";
 import { FooterSocialIcons } from "@/components/ui/Icons";
 
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
       <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-purple-200/10 blur-3xl"></div>
       
       <div className="relative w-full min-h-screen flex flex-col items-center justify-center py-12 px-4 z-10">
-        <QRCodeGenerator />
+        <SmartQR />
         
         {/* Footer with developer info */}
         <footer className="w-full mt-12 pb-6">
